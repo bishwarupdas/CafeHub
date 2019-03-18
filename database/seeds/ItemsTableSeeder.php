@@ -100,7 +100,7 @@ class ItemsTableSeeder extends Seeder
                 'name' => $item[2],
                 'is_addon' => $item[3],
                 'price' => $item[4],
-                'discount' => $item[5]
+                'discount_percentage' => $item[5]
             ]);
         }
 
