@@ -25,7 +25,7 @@ class TaxTableSeeder extends Seeder
         );
 
         foreach ($tax as $row) {
-            DB::table('items')->insert([
+            DB::table('tax')->insert([
                 'name' => $row['name'],
                 'percentage' => $row['amount']
             ]);
