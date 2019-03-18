@@ -341,6 +341,7 @@ class ComposerStaticInit174be9ce87fb803bf6425358cfaf6c39
 
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
+        'App\\Customers' => __DIR__ . '/../..' . '/app/Customers.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
@@ -372,6 +373,7 @@ class ComposerStaticInit174be9ce87fb803bf6425358cfaf6c39
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
         'Carbon\\Laravel\\ServiceProvider' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php',
         'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
+        'CategoriesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/CategoriesTableSeeder.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
         'Cron\\DayOfMonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/DayOfMonthField.php',
@@ -381,6 +383,7 @@ class ComposerStaticInit174be9ce87fb803bf6425358cfaf6c39
         'Cron\\HoursField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/HoursField.php',
         'Cron\\MinutesField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MinutesField.php',
         'Cron\\MonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
+        'CustomersTableSeeder' => __DIR__ . '/../..' . '/database/seeds/CustomersTableSeeder.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
@@ -1803,6 +1806,7 @@ class ComposerStaticInit174be9ce87fb803bf6425358cfaf6c39
         'Illuminate\\View\\ViewFinderInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
+        'ItemsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/ItemsTableSeeder.php',
         'JakubOnderka\\PhpConsoleColor\\ConsoleColor' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/ConsoleColor.php',
         'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/InvalidStyleException.php',
         'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src/JakubOnderka/PhpConsoleHighlighter/Highlighter.php',

@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
+    'App\\Customers' => $baseDir . '/app/Customers.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
     'App\\Http\\Controllers\\Auth\\LoginController' => $baseDir . '/app/Http/Controllers/Auth/LoginController.php',
@@ -38,6 +39,7 @@ return array(
     'Carbon\\Exceptions\\InvalidDateException' => $vendorDir . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
     'Carbon\\Laravel\\ServiceProvider' => $vendorDir . '/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php',
     'Carbon\\Translator' => $vendorDir . '/nesbot/carbon/src/Carbon/Translator.php',
+    'CategoriesTableSeeder' => $baseDir . '/database/seeds/CategoriesTableSeeder.php',
     'Cron\\AbstractField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
     'Cron\\CronExpression' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
     'Cron\\DayOfMonthField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/DayOfMonthField.php',
@@ -47,6 +49,7 @@ return array(
     'Cron\\HoursField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/HoursField.php',
     'Cron\\MinutesField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MinutesField.php',
     'Cron\\MonthField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
+    'CustomersTableSeeder' => $baseDir . '/database/seeds/CustomersTableSeeder.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'DeepCopy\\DeepCopy' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
     'DeepCopy\\Exception\\CloneException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
@@ -1469,6 +1472,7 @@ return array(
     'Illuminate\\View\\ViewFinderInterface' => $vendorDir . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
     'Illuminate\\View\\ViewName' => $vendorDir . '/laravel/framework/src/Illuminate/View/ViewName.php',
     'Illuminate\\View\\ViewServiceProvider' => $vendorDir . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
+    'ItemsTableSeeder' => $baseDir . '/database/seeds/ItemsTableSeeder.php',
     'JakubOnderka\\PhpConsoleColor\\ConsoleColor' => $vendorDir . '/jakub-onderka/php-console-color/src/ConsoleColor.php',
     'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => $vendorDir . '/jakub-onderka/php-console-color/src/InvalidStyleException.php',
     'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => $vendorDir . '/jakub-onderka/php-console-highlighter/src/JakubOnderka/PhpConsoleHighlighter/Highlighter.php',
