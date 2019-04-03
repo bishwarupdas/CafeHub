@@ -20,6 +20,7 @@ class CreateItemsTable extends Migration
             $table->boolean('is_addon');
             $table->float('price', 4, 1);
             $table->float('discount_percentage', 3, 1);
+            $table->boolean('disabled');
             $table->timestamps();
         });
     }

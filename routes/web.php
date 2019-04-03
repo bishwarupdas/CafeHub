@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/dashboard', 'DashboardController@index');
+
+Route::get('/customers', 'CustomerController@index');
+
+Route::get('/bill-items', 'ItemController@billingItems');
+
+Route::post('/bill/create', 'BillController@create');

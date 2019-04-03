@@ -20,6 +20,7 @@ class CreateCustomersTable extends Migration
             $table->integer('phone')->unique();
             $table->text('address');
             $table->char('area', 20);
+            $table->float('discount',  2, 1);
             $table->timestamps();
         });
     }

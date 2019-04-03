@@ -24,6 +24,7 @@ class CustomersTableSeeder extends Seeder
                 'email' => $faker->unique()->email,
                 'phone' => $faker->unique()->numberBetween(100000000, 999999999),
                 'address' => $faker->address,
+                'discount' => 0,
                 'area' => "N. S. Avenue"
             ]);
         }
