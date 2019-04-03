@@ -27,6 +27,9 @@
             .sidebar .sidebar-wrapper {
                 width: 488px;
             }
+            .main-panel>.content {
+                margin-top: -50px;
+            }
             @endif
         </style>
 </head>
@@ -41,6 +44,7 @@
         @endif
     </div>
     <div class="main-panel">
+    @if(Request::route()->uri() != 'bill-items')
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
             <div class="container-fluid">
@@ -106,6 +110,7 @@
                 </div>
             </div>
         </nav>
+    @endif
         <!-- End Navbar -->
         <div class="content">
             <div class="container-fluid">
